@@ -20,4 +20,8 @@ There are 6 traffic sign categories your model should be able to recognize:
 ![](figures/prohib_signs_1.png)
 ![](figures/prohib_signs_2.png)
 
+There are multiple possibilities to tackle this problem. Just to name a few: pattern recognition with image segmentation, CNN, using pre-trained models, etc.
+
+Our group chose to use a pre-trained ANN model.
+
 You can reach the database [here](https://mega.nz/file/eo9VHLRT#MFZRQKcUySyg1H9q3-9IgcS0T6OBx-kBcgE1z7RrPZ0). It contains 6 different classes of prohibitory traffic signs. It was compiled from the [GTSRB](https://benchmark.ini.rub.de/gtsrb_news.html) and [TSRD](http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html) databases. It is already split into a training and testing dataset. Preprocessing and data augmentation are needed, these are just the raw source files.
