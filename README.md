@@ -27,8 +27,8 @@ Our group chose to use a pre-trained ANN model. We worked in python mainly using
 You can reach the database for the simple categorizer [here](https://mega.nz/file/eo9VHLRT#MFZRQKcUySyg1H9q3-9IgcS0T6OBx-kBcgE1z7RrPZ0). The YOLOv8 dataset was trained with that data available [here](https://mega.nz/file/LxF3SDSJ#SOqRufIMTeESzGdEG3-OZjDWekIwzLD1GyGw10N3m9E) (be aware this file is quite large, ~16 Gb!). The data for the "simple" categorizer contains 6 different classes of prohibitory traffic signs. It was compiled from the [GTSRB](https://benchmark.ini.rub.de/gtsrb_news.html) and [TSRD](http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html) databases. It is already split into a training and testing dataset. Preprocessing and data augmentation are needed, these are just the raw source files. The data for the YOLOv8 ANN was created from the open access data from [Mapillary](https://www.mapillary.com/dataset/trafficsign). It has at the core over 40 000 images for training and validation and over 10 000 for testing with over 400 categories. The original images were compressed and converted to lossy ```.jpg``` format from lossless ```.png```, to obtain a smaller-sized dataset, but the resolution was kept.
 
 **TODO**
-- categorize the dataset for YOLO and pick only the objects needed for our task (i.e. mostly the prohibitory ones)
-- re-split/augment the data for YOLO
-- augment the data for the simple categorizer
-- create the categorizer
-- Write a GUI for the categorizer
+- [ ] categorize the dataset for YOLO and pick only the objects needed for our task (i.e. mostly the prohibitory ones)
+- [ ] re-split/augment the data for YOLO
+- [ ] augment the data for the simple categorizer
+- [ ] create the categorizer
+- [ ] Write a GUI for the categorizer
