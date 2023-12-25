@@ -29,6 +29,6 @@ You can reach the database for the simple categorizer [here](https://mega.nz/fil
 **TODO**
 - categorize the dataset for YOLO and pick only the objects needed for our task (i.e. mostly the prohibitory ones)
 - re-split/augment the data for YOLO
-- augment the data for the simple categorize
-- create the categorize
+- augment the data for the simple categorizer
+- create the categorizer
 - Write a GUI for the categorizer
