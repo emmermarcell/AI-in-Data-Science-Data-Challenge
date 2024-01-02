@@ -29,8 +29,9 @@ You can reach the database for the simple categorizer [here](https://mega.nz/fil
 The resulting categorizer's CNN can be found [here](https://mega.nz/file/OpFTzCxD#5v2uDk7mn2MLkgAfvT8oP3WtAI00p4oKIdp0jP7EQIU). The GUI for the classification was inspired by [this blog post](https://www.analyticsvidhya.com/blog/2021/12/traffic-signs-recognition-using-cnn-and-keras-in-python/)
 
 **TODO**
-- [ ] categorize the dataset for YOLO and pick only the objects needed for our task (i.e. mostly the prohibitory ones)
-- [ ] re-split/augment the data for YOLO
+- [x] categorize the dataset for YOLO and pick only the objects needed for our task (i.e. mostly the prohibitory ones)
+- [x] re-split/augment the data for YOLO
 - [x] augment the data for the simple categorizer
 - [x] create the categorizer
 - [x] Write a GUI for the categorizer
+- [ ] train the YOLOv8
